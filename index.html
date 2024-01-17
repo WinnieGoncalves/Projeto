@@ -29,30 +29,45 @@
         h1 {
             letter-spacing: 5px; /* Adicionando espaçamento entre as letras */
             margin-bottom: 20px; /* Adicionando uma margem inferior ao h1 para separar da imagem */
+            background-image: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red); /* Cores do arco-íris */
+            -webkit-background-clip: text;
+            color: transparent;
         }
 
         p {
             text-align: justify; /* Justificando o texto para melhorar a aparência */
             max-width: 400px; /* Limitando a largura do texto */
             margin: 10px auto; /* Adicionando margem vertical ao parágrafo */
+            font-style: italic; /* Adicionando estilo itálico ao texto do parágrafo */
+        }
+
+        /* Estilo para a segunda imagem */
+        .content img:last-child {
+            max-width: 100%; /* Garantindo que a segunda imagem tenha o mesmo tamanho que a primeira */
         }
     </style>
 </head>
 <body>
-    <h1><b>TÔ TENTANDO CONDUZIR.</b></h1>
+    <h1><b>Hello World!</b></h1>
     <div class="content">
+
+<p>
+            <i>A Fé e a Esperança movem montanhas...🙏🏾</i>
+        </p>
+        <p>
+            <i>Se permita começar ruim. O progresso é feito de altos e baixos. Você ainda vai ser muito ruim antes de se tornar realmente bom. O importante é estudar e APLICAR sem parar, porque quantidade lapida qualidade!</i>
+        </p>
+
         <!-- Link para inserir a primeira imagem (substitua 'URL_DA_IMAGEM' pela URL real) -->
         <img src="Foto Gatinho.jpg" alt="Minha Imagem">
         
-        <p>
-            A esperança move montanhas...🙏🏾
-        </p>
-        <p>
-            Se permita começar ruim. O progresso é feito de altos e baixos. Você ainda vai ser muito ruim antes de se tornar realmente bom. O importante é estudar e APLICAR sem parar, porque quantidade lapida qualidade!
-        </p>
+ 		 <p> 
+           Code and Tea 💻🫖
+        </p>    
 
         <!-- Link para inserir a segunda imagem (substitua 'URL_DA_SEGUNDA_IMAGEM' pela URL real) -->
         <img src="Tatoo.jpg" alt="Outra Imagem">
+
     </div>
 </body>
 </html>
