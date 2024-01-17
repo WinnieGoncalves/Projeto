@@ -10,37 +10,46 @@
             color: #add8e6; /* Cor do texto branco para melhor contraste */
             font-family: Arial, sans-serif; /* Escolha de fonte */
             display: flex;
+            flex-direction: column;
             align-items: center;
-            justify-content: center;
             height: 100vh; /* Tornando a altura igual à altura da janela de visualização */
             margin: 0; /* Removendo margens padrão do corpo */
         }
 
+        .content {
+            text-align: center;
+            margin-top: 20px; /* Adicionando uma margem superior ao conteúdo para separar do h1 */
+        }
+
         img {
             max-width: 100%; /* Garantindo que a imagem não ultrapasse a largura da tela */
-            margin-right: 20px; /* Adicionando uma margem à direita da imagem para separar do texto */
+            margin-bottom: 20px; /* Adicionando uma margem inferior à imagem para separar dos parágrafos */
+        }
+
+        h1 {
+            letter-spacing: 5px; /* Adicionando espaçamento entre as letras */
+            margin-bottom: 20px; /* Adicionando uma margem inferior ao h1 para separar da imagem */
         }
 
         p {
             text-align: justify; /* Justificando o texto para melhorar a aparência */
             max-width: 400px; /* Limitando a largura do texto */
+            margin: 10px auto; /* Adicionando margem vertical ao parágrafo */
         }
     </style>
 </head>
 <body>
     <h1><b>TÔ TENTANDO CONDUZIR.</b></h1>
-    <div>
+    <div class="content">
         <!-- Link para inserir a imagem (substitua 'URL_DA_IMAGEM' pela URL real) -->
         <img src="Foto Gatinho.jpg" alt="Minha Imagem">
-
+        
         <p>
-            Gratidão não pode ser uma prisão onde aceitamos qualquer tipo de tratamento, só por que um dia, uma pessoa desempenhou um papel importante em nossa vida ou abriu alguma porta..
+            Gratidão não pode ser uma prisão onde aceitamos qualquer tipo de tratamento, só porque um dia, uma pessoa desempenhou um papel importante em nossa vida ou abriu alguma porta.
         </p>
-            Se permita começar ruimm. O progresso é feito de altos e baixos. Você ainda vai ser muito ruim antes de se tornar realmente bom. O importante é estudar e APLICAR sem parar, porque quantidade lapida qualidade!
         <p>
-            
-       </p>
+            Se permita começar ruim. O progresso é feito de altos e baixos. Você ainda vai ser muito ruim antes de se tornar realmente bom. O importante é estudar e APLICAR sem parar, porque quantidade lapida qualidade!
+        </p>
     </div>
-
 </body>
 </html>
